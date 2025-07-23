@@ -1,0 +1,120 @@
+ .nameBlinking h1 {
+    padding-top: 70px;
+    font-size: 3rem;
+    overflow: hidden; /* Hides content during typing */
+    border-right: 0.05em solid black;
+    white-space: nowrap; /* Prevents text wrapping */
+    margin: 0 auto; /* Centers the element */
+    animation: typing 2.5s steps(15, end), blink 0.75s step-end infinite; /* Typing and blinking cursor animations */
+    display: inline-block; /* Makes the element's width fit the content */
+    font-family: "Manrope", "Sans-serif";
+    font-weight: normal;
+    text-align: center;
+  }
+  
+  /* Typing effect keyframe */
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 15ch; } /* Adjust this to match the number of characters in your header */
+  }
+  
+  /* Blinking cursor effect */
+  @keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+  }
+  .heroContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Individual circular content boxes */
+  .imageBox {
+    width: 200px; /* Set the width of the box */
+    height: 200px; /* Set the height of the box */
+    overflow: hidden; /* Ensures anything outside the box is hidden */
+    display: flex; /* Center the image */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    border-radius: 50%; /* Makes the box round */
+    border: 2px solid #000; 
+    /* Optional: Add a border */
+    box-shadow: 0px 5px 65px rgba(28, 34, 31, 0.5);
+  }
+  
+  .imageBox img {
+    width: 100%; /* Make the image take the full width */
+    height: 100%; /* Make the image take the full height */
+    object-fit: cover; /* Ensures the image covers the box */
+    border-radius: 50%; /* Make the image round */
+    
+  }
+
+  .jobTitle{
+    color:#243E36; 
+    font-size: 1.7rem; 
+    font-weight: 500; 
+    font-family: "Space Grotesk", "sans-serif";
+  }
+
+  @media (min-width: 600px) {
+    .imageBox {
+      flex: 1 1 45%;
+      max-width: 200px; /* Ensure max-width remains the same */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .imageBox {
+      flex: 1 1 30%;
+      max-width: 200px; /* Ensure max-width remains the same */
+    }
+  }
+
+  /* For Tablets and Smaller Laptops */
+@media (max-width: 1024px) {
+    .nameBlinking h1 {
+        font-size: 2.5rem; /* Slightly smaller for tablets/smaller laptops */
+    }
+
+    .imageBox {
+        width: 150px; /* Resize boxes for smaller laptop screens */
+        height: 150px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .nameBlinking h1 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    .heroContainer {
+        flex-direction: column; /* Stack boxes vertically */
+    }
+
+    .imageBox {
+
+        width: 100px; /* Smaller box for mobile */
+        height: 100px;
+        margin: 0 auto; /* Center the box itself */
+        overflow: hidden; /* Ensures anything outside the box is hidden */
+        display: flex; /* Center the content */
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Center the content vertically */
+        border-radius: 50%; /* Makes the box round */
+        border: 2px solid #000; /* Optional: Add a border */
+    
+    }
+
+    .blueButton button {
+        width: auto; /* Change to auto width for slimmer buttons */
+        max-width: 80%; /* Set a maximum width for better sizing */
+        padding: 0.5em 1em; /* Adjust padding for a more compact button */
+        font-size: 1.2rem; /* Keep larger font for readability */
+        margin: 10px auto; /* Add margin for spacing between buttons and center them */
+    
+  }
+}

@@ -16,7 +16,7 @@ function About(){
                 <span>Hunter College</span> <br />
                 <span>Major: Computer Science | </span>
                 <span>Minor: Applied Mathematics </span><br />
-                <span>Grad Date: Jan 2025 </span>
+                <span>Graduated: Jan 2025 </span>
                 <br /><br />
                 
                 <div className="tooltip"> <a href="https://github.com/tasmiachow/JetGenie" target="_blank"><img src="images/hack.jpg" alt="hackathon" className="fun-pic" /> </a>

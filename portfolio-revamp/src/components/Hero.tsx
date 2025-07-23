@@ -17,11 +17,8 @@ function Hero(){
       alt="Tasmia's Headshot" />
     </div>
   </section>
-    <h2>Software Engineer</h2>
+    <h2 className={styles.jobTitle}>Software Engineer</h2>
     <div className ={styles.blueButtons}>
-    <a href="#about-me"><button>About</button></a>
-    <a href="#experience"><button>Experience</button></a>
-    <a href="#projects"><button>Projects</button></a>
     <a href="Tasmia_Chowdhury_Resume.pdf" target="_blank"><button>Resume</button></a>
   </div>
     </>
