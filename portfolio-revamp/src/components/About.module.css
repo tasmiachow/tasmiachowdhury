@@ -68,3 +68,57 @@
     align-items: center;
     flex-direction: column;
   }
+
+
+  .school{
+    color:#243E36; 
+    font-family: "Space Grotesk", "sans-serif"; 
+    font-weight: 700;
+  }
+
+  .study{
+    font-size:0.9rem; 
+    font-family: "Space Grotesk", "sans-serif"; 
+    color:#596F62;
+  }
+
+  .gradDate{
+    font-size:0.9rem; color:#243E36; font-weight: 700;
+  }
+
+  .funPic {
+    float: left;
+    margin-right: 15px;
+    border-radius: 50%; /* Perfect circle if image is square */
+    width: 150px;
+    height: 150px; /* Optional: force circle if image isn't square */
+    object-fit: cover; /* Ensures image fills the circle properly */
+    margin-bottom: 20px; /* Base bottom spacing */
+    box-shadow: 0px 5px 65px rgba(85, 82, 82, 0.5);
+  }
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  .tooltiptext a {
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }

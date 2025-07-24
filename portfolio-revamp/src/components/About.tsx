@@ -1,5 +1,5 @@
 import styles from "./About.module.css";
-
+import hackathon from "../assets/hackathon.jpg";
 
 function About(){
     return(
@@ -13,14 +13,14 @@ function About(){
                 <h1 className={styles.aboutTitle}>About Me</h1>
 
                 <p>
-                <span>Hunter College</span> <br />
-                <span>Major: Computer Science | </span>
-                <span>Minor: Applied Mathematics </span><br />
-                <span>Graduated: Jan 2025 </span>
+                <span className={styles.school}>Hunter College</span> <br />
+                <span className={styles.study}>Major: Computer Science | </span>
+                <span className={styles.study}>Minor: Applied Mathematics </span><br />
+                <span className={styles.gradDate}>Graduated: Jan 2025 </span>
                 <br /><br />
                 
-                <div className="tooltip"> <a href="https://github.com/tasmiachow/JetGenie" target="_blank"><img src="images/hack.jpg" alt="hackathon" className="fun-pic" /> </a>
-                    <span className="tooltiptext"> <a href="https://github.com/tasmiachow/JetGenie" target="_blank">Hackathon Project CLICK ME!</a> </span>
+                <div className={styles.tooltip}> <a href="https://github.com/tasmiachow/JetGenie" target="_blank"><img src={hackathon} alt="hackathon" className= {styles.funPic} /> </a>
+                    <span className={styles.tooltiptext}> <a href="https://github.com/tasmiachow/JetGenie" target="_blank">Hackathon Project CLICK ME!</a> </span>
                 </div>
                 
                 <p>Hey there! I’m passionate about making tech accessible! 

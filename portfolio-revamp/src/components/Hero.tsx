@@ -18,7 +18,7 @@ function Hero(){
     </div>
   </section>
     <h2 className={styles.jobTitle}>Software Engineer</h2>
-    <div className ={styles.blueButtons}>
+    <div className = "blueButtons">
     <a href="Tasmia_Chowdhury_Resume.pdf" target="_blank"><button>Resume</button></a>
   </div>
     </>

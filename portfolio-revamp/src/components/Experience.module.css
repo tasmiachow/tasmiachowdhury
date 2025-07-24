@@ -1,0 +1,52 @@
+ /* EXPERIENCE SECTION */
+ .experience {
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  /* Font size for h1 tag and adds space below */
+  .experience h1 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    font-weight: normal;
+  }
+  
+  /* Experience container - Now fully flexible */
+  .experienceContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows wrapping while maintaining horizontal layout */
+    gap: 20px; /* Adds spacing between items */
+  }
+  
+  /* Experience items */
+  .experienceItem {
+    width: calc(33.333% - 60px); /* Slightly reduced for better spacing */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Image size */
+  .experienceImg {
+    max-width: 130px;
+    height: 90px;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+  
+  /* Font size for h2 and p tags */
+  .place{
+    font-size: 1.3em;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .jobTitle{
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.4;
+  }

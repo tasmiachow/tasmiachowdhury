@@ -1,32 +1,33 @@
 import google from "../assets/google.png";
 import barclays from "../assets/barclays.png";
 import dgi from "../assets/dgi.png";
+import styles from "./Experience.module.css";
 
 function Experience(){
     return (
-        <div className="experience" id="experience">
+        <div className={styles.experience} id="experience">
         <h1>Experience</h1>
-        <div className="experience-container">
+        <div className={styles.experienceContainer}>
         
-            <div className="experience-item">
+            <div className={styles.experienceItem}>
             
-            <img src={barclays} alt="Barclays" />
+            <img src={barclays} alt="Barclays" className={styles.experienceImg}/>
             
             
-            <h2>Barclays Investment Bank</h2>
-            <p>Data Engineer Intern<br />2023</p>
+            <h2 className={styles.place}>Barclays Investment Bank</h2>
+            <p className={styles.jobTitle}>Data Engineer Intern<br />2023</p>
             </div>
 
-            <div className="experience-item">
-            <img src={google} alt="Google" />
-            <h2>Google</h2>
-            <p>SWE Fellow<br />2023</p>
+            <div className={styles.experienceItem}>
+            <img src={google} alt="Google" className={styles.experienceImg} />
+            <h2 className={styles.place}>Google</h2>
+            <p className={styles.jobTitle}>SWE Fellow<br />2023</p>
             </div>
 
-            <div className="experience-item">
-            <img src={dgi} alt="Digital Girl, Inc." />
-            <h2>Digital Girl, Inc.</h2>
-            <p>Program Administrator & Lead Instructor <br /> Part-Time | 2018-2024</p>
+            <div className={styles.experienceItem}>
+            <img src={dgi} alt="Digital Girl, Inc." className={styles.experienceImg}/>
+            <h2 className={styles.place}>Digital Girl, Inc.</h2>
+            <p className={styles.jobTitle}>Program Administrator & Lead Instructor <br />2018-2024</p>
             </div>
         
         </div>
