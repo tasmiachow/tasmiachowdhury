@@ -1,4 +1,6 @@
-
+import google from "../assets/google.png";
+import barclays from "../assets/barclays.png";
+import dgi from "../assets/dgi.png";
 
 function Experience(){
     return (
@@ -8,7 +10,7 @@ function Experience(){
         
             <div className="experience-item">
             
-            <img src="images/barclays.png" alt="Barclays" />
+            <img src={barclays} alt="Barclays" />
             
             
             <h2>Barclays Investment Bank</h2>
@@ -16,13 +18,13 @@ function Experience(){
             </div>
 
             <div className="experience-item">
-            <img src="images/google.png" alt="Google" />
+            <img src={google} alt="Google" />
             <h2>Google</h2>
             <p>SWE Fellow<br />2023</p>
             </div>
 
             <div className="experience-item">
-            <img src="images/dgi.png" alt="Digital Girl, Inc." />
+            <img src={dgi} alt="Digital Girl, Inc." />
             <h2>Digital Girl, Inc.</h2>
             <p>Program Administrator & Lead Instructor <br /> Part-Time | 2018-2024</p>
             </div>

@@ -15,6 +15,8 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 body{
- background: RGBA(209, 227, 221, 0.6);
- background: radial-gradient(circle,rgba(209, 227, 221, 1) 61%, rgba(145, 190, 202, 1) 84%);
+  background: RGBA(209, 227, 221, 0.6);
+  background: radial-gradient(circle,rgba(209, 227, 221, 1) 61%, rgba(145, 190, 202, 1) 84%);
+  overflow-x: hidden;
+  font-family: "Manrope", "sans-serif";
 }

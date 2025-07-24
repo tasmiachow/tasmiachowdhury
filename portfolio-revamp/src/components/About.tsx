@@ -3,14 +3,14 @@ import styles from "./About.module.css";
 
 function About(){
     return(
-        <div className="about" id="about-me">
+        <div className={styles.about} id="about-me">
    
-            <div className="content">
+            <div className={styles.content}>
             
 
             
             <div className="text">
-                <h1>About Me</h1>
+                <h1 className={styles.aboutTitle}>About Me</h1>
 
                 <p>
                 <span>Hunter College</span> <br />
