@@ -56,7 +56,8 @@ function About(){
 
 
             <h4>Beyond Code</h4>
-            <p></p>
+            <p>In my freetime, you’ll probably find me gaming on my pc I built 🎮, running, cooking up elaborate meals 🍳, or watching shows with my mom and little sister 🎥. 
+            Oh, and I’m a huge anime fan, so if you ever want to talk about One Piece, I'm down 🏴‍☠️  </p>
         </div>
         </>
     )

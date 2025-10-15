@@ -1,0 +1,34 @@
+.contact {
+    color: black;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+  }
+  
+  .contact h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+  }
+  .contact h3 {
+    font-size: 1.5rem;
+    font-family: manrope;
+    font-weight: 600;
+    color:#243E36;
+  }
+  
+  /* Makes the content div smaller  */
+  .contact .content {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact p{
+    font-size: 1.5rem;
+  }
