@@ -36,6 +36,9 @@ function About(){
             <h4>My Journey</h4>
             <p></p>
 
+            <h4>My Hobbies</h4>
+            <p></p>
+
             <h4>My Skills</h4>
             {/* gonna make it into a tooltip -> */} <p> At this point, you're probably thinking damn idrc. So I'll cut to the good stuff</p> 
         </div>
