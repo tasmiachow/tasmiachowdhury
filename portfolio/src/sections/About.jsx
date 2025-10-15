@@ -1,3 +1,13 @@
+import styles from "../styles/About.module.css";
+
+const skills = [
+  { name: "React", badge: "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" },
+  { name: "JavaScript", badge: "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" },
+  { name: "CSS3", badge: "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"},
+  { name: "Python", badge: "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" },
+  { name: "Flask", badge: "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" },
+  { name: "PostgreSQL", badge: "https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" },
+];
 
 
 
@@ -36,11 +46,17 @@ function About(){
             <h4>My Journey</h4>
             <p></p>
 
-            <h4>My Hobbies</h4>
-            <p></p>
-
             <h4>My Skills</h4>
-            {/* gonna make it into a tooltip -> */} <p> At this point, you're probably thinking damn idrc. So I'll cut to the good stuff</p> 
+            At this point, you're probably thinking “damn idrc.” Fair. So here’s the good stuff:
+            <div className={styles.skillsBadges}>
+            {skills.map((skill) => (
+                <img key={skill.name} src={skill.badge} alt={skill.name} />
+            ))}
+            </div>
+
+
+            <h4>Beyond Code</h4>
+            <p></p>
         </div>
         </>
     )
