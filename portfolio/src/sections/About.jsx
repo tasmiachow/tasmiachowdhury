@@ -16,12 +16,7 @@ function About(){
         <>
         
 
-        <div className="education">
-            <span>Hunter College</span> <br></br>
-            <span>Major: Computer Science</span> <br></br>
-            <span>Minor: Applied Mathematics</span> <br></br>
-            <span>Grad Date: Jan 2025</span> <br></br>
-        </div>
+     
         
         <div className="readText">
             <h4>Who I Am</h4>

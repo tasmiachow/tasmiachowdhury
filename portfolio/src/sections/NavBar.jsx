@@ -8,7 +8,7 @@ function NavBar(){
     
     return(
         <nav className={styles.nav}>
-             <div className={styles.resume}><a href="" target = "_blank">Resume</a>
+             <div className={styles.resume}><a href="/Tasmia_Chowdhury_Resume.pdf" target = "_blank" rel="noopener noreferrer">Resume</a>
             </div>
             <button
                 className={styles.menuBtn}

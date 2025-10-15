@@ -1,21 +1,22 @@
 .contact {
     color: black;
     padding: 20px;
-    
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: white;
+    font-family: "Inter", "sans-serif";
   }
   
   .contact h1 {
     font-size: 2.5rem;
     font-weight: normal;
+    text-align: center;
   }
   .contact h3 {
     font-size: 1.5rem;
-    font-family: manrope;
+    
     font-weight: 600;
     color:#243E36;
   }
@@ -32,3 +33,68 @@
   .contact p{
     font-size: 1.5rem;
   }
+
+ .imgBox {
+    width: 200px; /* Set the width of the box */
+    height: 200px; /* Set the height of the box */
+    overflow: hidden; /* Ensures anything outside the box is hidden */
+    display: flex; /* Center the image */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+    border-radius: 50%; /* Makes the box round */
+    border: 2px solid #000; 
+    /* Optional: Add a border */
+    /* box-shadow: 0px 5px 65px rgba(28, 34, 31, 0.5); */
+  }
+  
+  .imgBox img {
+    width: 100%; /* Make the image take the full width */
+    height: 100%; /* Make the image take the full height */
+    object-fit: cover; /* Ensures the image covers the box */
+    border-radius: 50%; /* Make the image round */
+    
+  }
+
+
+
+
+@media (max-width: 768px) {
+     .imgBox {
+
+        width: 100px; /* Smaller box for mobile */
+        height: 100px;
+        margin: 0 auto; /* Center the box itself */
+        overflow: hidden; /* Ensures anything outside the box is hidden */
+        display: flex; /* Center the content */
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Center the content vertically */
+        border-radius: 50%; /* Makes the box round */
+        border: 2px solid #000; /* Optional: Add a border */
+    
+    }
+}
+
+
+
+@media (min-width: 1024px) {
+    .imgBox {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+    .imgBox {
+        width: 150px; /* Resize boxes for smaller laptop screens */
+        height: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+    .imgBox{
+        width:80px;
+        height: 80px;
+    }
+}
