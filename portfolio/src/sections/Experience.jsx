@@ -1,11 +1,12 @@
 import styles from '../styles/Experience.module.css';
 
 //{/* Images */}
-import Barclays from '../assets/barclays.png';
-import DGI from '../assets/dgi.png';
-import Google from '../assets/google.png';
-import CTP from '../assets/ctp-logo.png';
-import CodePath from '../assets/CodePath.jpeg';
+import Barclays from '../assets/work/barclays.png';
+import DGI from '../assets/work/dgi.png';
+import Google from '../assets/fellowship/google.png';
+import CTP from '../assets/fellowship/ctp-logo.png';
+import CodePath from '../assets/fellowship/CodePath.jpeg';
+import Hunter from '../assets/hunter.jpg';
 
 function Experience(){
     return(
@@ -66,18 +67,19 @@ function Experience(){
             </div>
 
             <h3>Education</h3>
-                <div className="education">
-                    <span>Hunter College</span> <br></br>
-                    <span>Major: Computer Science</span> <br></br>
-                    <span>Minor: Applied Mathematics</span> <br></br>
-                    <span>Grad Date: Jan 2025</span> <br></br>
+                <div className={styles.education}>
+                   <div className={styles.uni}> <img src= {Hunter} /> </div>
+                    <span className={styles.college}>Hunter College</span> <br></br>
+                    <span className={styles.major}>Major: Computer Science | Minor: Applied Mathematics</span> <br></br>
+                    <span className={styles.grad}>Grad Date: Jan 2025</span> <br></br>
+                     <div className={styles.blueButton}> <a href="/Tasmia_Chowdhury_Resume.pdf" target="_blank" rel="noopener noreferrer"><button>Resume</button> </a></div>
                 </div>
 
 
 
         {/* <!-- Add other experiences here using the same structure --> */}
        
-        <div className={styles.blueButton}> <a href="/Tasmia_Chowdhury_Resume.pdf" target="_blank" rel="noopener noreferrer"><button>Resume</button> </a></div>
+       
     </div>
 
 

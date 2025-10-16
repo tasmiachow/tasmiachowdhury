@@ -1,5 +1,10 @@
 import GlassCard from "../components/GlassCard.jsx";
 
+// All images 
+import Odin from "../assets/odin.png";
+import CTP from '../assets/fellowship/ctp-logo.png';
+
+
 
 function Project(){
     return(
@@ -13,8 +18,9 @@ function Project(){
             <div className="openSource">
                 <h3> Open Source Contributions </h3>
                 <div className = "oscImgs">
-                    {/* <img> </img>
-                    <img> </img> */}
+                   <img src = {Odin} />
+                   <img src = {CTP} />
+
                 </div>
             </div>
         </div>

@@ -49,3 +49,66 @@
   font-size: 0.9em;
   line-height: 1.4;
 }
+
+
+.college{
+  color:#243E36; 
+  font-family: "Space Grotesk", "Sans-serif"; 
+  font-weight: 700;
+}
+
+.major{
+  font-size:0.9rem; 
+  font-family:  "Space Grotesk", "Sans-serif";
+  color:#596F62; 
+  font-weight: 600;
+}
+
+.grad{
+  font-family: "Space Grotesk", "Sans-serif";
+  font-size:0.9rem; 
+  color:#243E36; 
+  font-weight: 700;
+}
+
+.education {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      /* vertically center if there's height */
+  flex-direction: column;   /* stack elements if you add text later */
+  min-height: 50vh;         /* optional, gives some breathing room */
+  
+}
+.uni{
+  width: 200px;
+  height:200px; 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center center;
+  display: flex;             
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+ 
+}
+.uni img{
+  width:100%; 
+  height:100%;
+  object-fit: cover;
+   border-radius: 50%;
+   
+}
+
+@media (max-width: 768px) {
+  .uni {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .uni {
+    width: 120px;
+    height: 120px;
+  }
+}
