@@ -1,0 +1,21 @@
+.oscImgs{
+  width: 100px;
+  height:100px; 
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center center;
+  display: flex;             
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+ 
+}
+.oscImgs img{
+  width:100%; 
+  height:100%;
+  object-fit: cover;
+}
+
+.openSource{
+    display:flex;
+}

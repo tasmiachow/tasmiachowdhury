@@ -39,7 +39,12 @@ function About(){
                 that kind of impact and make cool, useful applications for everyone.</p>
 
             <h4>My Journey</h4>
-            <p></p>
+            <p>
+                I started learning web development in high school, then moved on to teach at Digital Girl, Inc. for 6 years. 
+                I taught and made curriculi, that reached over 700+ students in NYC area! 
+                I simultaneously attended university, where I honed my full-stack and teamwork skills. 
+                Currently, I’m a frontend dev for a web3 startup, and attending hackathons on the side! 
+            </p>
 
             <h4>My Skills</h4>
             At this point, you're probably thinking “damn idrc.” Fair. So here’s the good stuff:
